@@ -2,6 +2,7 @@
 import React from "react";
 import { AuroraBackground } from "./ui/Arorabg";
 import { motion } from "framer-motion";
+import { Button } from "./ui/button";
 
 export default function Movinbg() {
   return (
@@ -28,9 +29,36 @@ export default function Movinbg() {
           </button>
         </motion.div>
 
-        <div className=" absolute top-5 left-5 bg-red-500">
-          {" "}
-          this is where the image of the woman would be i wouldv move it
+        <div className=" max-w-screen-lg items-center grid-cols-2 h-lvh gap-5 grid absolute top-5 left-5 ">
+          <div className=" ">
+            <div className=" p-4 bg-purple-300 border border-zinc-100 rounded-lg font-bold">
+              Licencesed investment Banker
+            </div>
+
+            <h2 className=" mt-5 text-base line-clamp-2 text-zinc-600">
+              {" "}
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Inventore officia illo eveniet autem temporibus ullam incidunt rem
+              id tempora tempore accusamus voluptatum quisquam aliquid
+              voluptatem non animi, ducimus ratione labore.{" "}
+            </h2>
+
+            <div className=" flext gap-10">
+              <Button variant={"default"} size={"lg"}>
+                {" "}
+                Get Stated
+              </Button>
+              <Button variant={"default"} size={"lg"}>
+                {" "}
+                Detailed Report
+              </Button>
+            </div>
+          </div>
+          <div className=" justify-self-end self-start ">
+            <div className=" bg-zinc-600 h-[300px] w-[300px]">
+              <img />
+            </div>
+          </div>
         </div>
       </AuroraBackground>
     </div>
