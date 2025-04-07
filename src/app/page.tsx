@@ -5,16 +5,20 @@ import { AuroraBackground } from "@/components/ui/Arorabg";
 import { motion } from "framer-motion";
 
 import Image from "next/image";
+import { BackgroundBeamsDemo } from "@/components/Blackbg";
 
 export default function Home() {
   return (
     <>
-      <Maxwidthwrapper newClass=" border-2  border-zinc-100">
+      <Maxwidthwrapper newClass=" ">
         <Navbar />
 
         <div className=" ">
           <Movinbg />
         </div>
+
+        {/* this is the ther one */}
+        <BackgroundBeamsDemo />
       </Maxwidthwrapper>
     </>
   );
