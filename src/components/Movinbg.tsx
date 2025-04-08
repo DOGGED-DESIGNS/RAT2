@@ -43,7 +43,7 @@ export default function Movinbg() {
             duration: 0.8,
             ease: "easeInOut",
           }}
-          className=" w-[80%]  z-30 items-center grid-cols-2 h-lvh gap-5 grid absolute top-5 left-1/2 -translate-x-1/2 "
+          className=" w-[80%]  z-30 items-center grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 h-lvh gap-5 grid absolute top-5 left-1/2 -translate-x-1/2 "
         >
           <div className=" ">
             <div className="flex">

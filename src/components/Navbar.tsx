@@ -7,7 +7,9 @@ export default function Navbar() {
   return (
     <>
       <nav className="    max-sm:flex bg-zinc-100 items-center px-3 w-full hidden">
-        <div className=" px-4"> logo </div>
+        <div className=" w-[200px]  px-4 py-3">
+          <img className="w-full h-full" src="/ritalogo.svg" />
+        </div>
 
         <div className=" ml-auto">
           <Button variant={"ghost"} size={"icon"}>
@@ -16,7 +18,9 @@ export default function Navbar() {
         </div>
       </nav>
       <nav className=" max-sm:hidden py-4 bg-zinc-100 items-center px-3 w-full items-center flex">
-        <div className=" px-4"> logo </div>
+        <div className=" w-[200px] px-4">
+          <img className="w-full h-full" src="/ritalogo.svg" />
+        </div>
 
         <div className=" ml-auto   flex space-x-10">
           <Link href={"#"}> Home </Link>
