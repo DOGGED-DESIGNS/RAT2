@@ -77,8 +77,11 @@ export default function Movinbg() {
             </div>
           </div>
           <div className=" justify-self-start self-start ">
-            <div className=" bg-zinc-600 round-md h-[300px] w-[300px]">
-              <img />
+            <div className=" rounded-lg overflow-hidden bg-zinc-600 round-md h-[500px] w-[400px]">
+              <img
+                src="/ritalambo.jpg"
+                className="h-full w-full object-cover"
+              />
             </div>
           </div>
         </motion.div>

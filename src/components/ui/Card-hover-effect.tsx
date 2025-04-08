@@ -21,7 +21,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10",
+        "grid grid-cols-1 md:grid-cols-4  lg:grid-cols-4  py-10",
         className
       )}
     >
@@ -52,7 +52,9 @@ export const HoverEffect = ({
           </AnimatePresence>
           <Card>
             <CardTitle>
-              <div>{item.image}</div>
+              <div className=" h-[80px] w-[80px] mb-1">
+                <img src={item.image} className="w-full h-full " />
+              </div>
               <div> {item.title} </div>
             </CardTitle>
             <CardDescription>{item.description}</CardDescription>

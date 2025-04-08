@@ -7,12 +7,18 @@ import { motion } from "framer-motion";
 
 import Image from "next/image";
 import { BackgroundBeamsDemo } from "@/components/Blackbg";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { CardHoverEffectDemo } from "@/components/Cards";
 import { MovingBorderDemo } from "@/components/Moving";
 import { InfiniteMovingCards } from "@/components/ui/Infinite-moving";
 import { Spotlight } from "@/components/ui/Spotlight";
 import { WobbleCard } from "@/components/ui/Wobble-card";
+import Link from "next/link";
+import { Instagram, Mail, MessageCircle, Send } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { cn } from "@/lib/utils";
+import { Boxes } from "@/components/ui/Background-box";
 
 export default function Home() {
   const testimonials = [
@@ -61,10 +67,13 @@ export default function Home() {
         {/* licensed investment adviser */}
 
         <div className=" bg-purple-100">
-          <div className=" py-8 grid max-w-screen-md  w-full m-auto gap-10 grid-cols-2">
+          <div className=" py-[107px] grid max-w-screen-md  w-full m-auto gap-10 grid-cols-2">
             <div className=" ">
-              <div className=" rounded-lg bg-zinc-500  max-w-lg  h-[500px]">
-                <img />
+              <div className=" overflow-hidden rounded-lg bg-zinc-500  max-w-lg  h-full">
+                <img
+                  className="w-full h-full object-cover"
+                  src="/ritalaptop.jpg"
+                />
               </div>
             </div>
             <div>
@@ -117,7 +126,7 @@ export default function Home() {
         <CardHoverEffectDemo />
 
         {/* this is another section */}
-        <div className="   px-5 py-5  m-auto bg-slate-900   mt-9">
+        <div className="   px-5 py-10  m-auto bg-slate-900   mt-9">
           <div className=" mx-auto max-w-screen-lg">
             <div>
               <div className=" mt-5 mb-12">
@@ -204,10 +213,112 @@ export default function Home() {
         </div>
 
         {/* form section */}
-        <div> contact section </div>
+        <div className=" bg-purple-200 py-[107px]  mt-20">
+          <div className=" bg-slate-50 gap-10 p-10 mx-auto rounded-lg max-w-screen-lg grid lg:grid-cols-2 md:grid-col-1 grid-col-1 sm:grid-col-1 ">
+            <div className="  col-span-1">
+              <div className=" p-8">
+                <h6 className=" text-sm font-bold text-purple-900">
+                  Get in touch
+                </h6>
+                <h2 className="text-3xl mt-3 text-slate-900 font-bold ">
+                  Send me a Message
+                </h2>
+                <p className="mt-4 text-slate-500 tex-base ">
+                  {" "}
+                  Lorem ipsum dolor sit amet.{" "}
+                </p>
+
+                {/* this is the image  */}
+                <div className=" mx-auto mt-6 rounded-lg overflow-hidden w-[250px] h-[250px]">
+                  <img
+                    src="/ritabtc.jpg"
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+
+                {/* this is where the socials are */}
+
+                <div className="mt-6 flex gap-5  ">
+                  <Link
+                    href={"#"}
+                    className={buttonVariants({
+                      variant: "ghost",
+                      size: "icon",
+                      className: "border border-slate-800",
+                    })}
+                  >
+                    {" "}
+                    <Instagram />{" "}
+                  </Link>
+                  <Link
+                    href={"#"}
+                    className={buttonVariants({
+                      variant: "ghost",
+                      size: "icon",
+                      className: "border border-slate-800",
+                    })}
+                  >
+                    {" "}
+                    <MessageCircle />{" "}
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="  col-span-1">
+              <form className=" h-full flex flex-col  w-full">
+                {/* this is the name */}
+                <div className=" my-auto ">
+                  <div className="my-5  w-full">
+                    <Input placeholder="full name" />
+                  </div>
+                  <div className="my-5 w-full">
+                    <Input placeholder="Email" type="email" />
+                  </div>
+                  <div className="my-5 h-[60px] w-full">
+                    <Input
+                      placeholder="Subject"
+                      className="h-full"
+                      type="email"
+                    />
+                  </div>
+                  <div className="my-5 w-full">
+                    <Textarea
+                      className="h-[250px]"
+                      placeholder="Message"
+                      maxLength={255}
+                    />
+                  </div>
+
+                  <div>
+                    <Button className=" w-full" variant={"default"} size={"lg"}>
+                      {" "}
+                      <Send /> Send Now{" "}
+                    </Button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
 
         {/* fotter section */}
-        <div> this is the footer section </div>
+        <div className="h-96 relative w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center ">
+          <div className="absolute inset-0 w-full h-full bg-slate-950 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
+
+          <Boxes />
+          <div className="  ">
+            <img className="w-full h-full" src="/ritalogo.svg" />
+          </div>
+          <p className="text-center max-w-prose  mt-5 text-neutral-300 relative z-20">
+            I can help you build and manage a solid investment portfolio,
+            significantly increasing your earning potential to over 200%.
+          </p>
+
+          <p className=" text-slate-500 mt-10">
+            Copyright &copy; 2018 Rita Rowo{" "}
+          </p>
+        </div>
       </Maxwidthwrapper>
     </>
   );
@@ -222,3 +333,23 @@ export default function Home() {
 // spotlight new
 
 // infinit moving card
+
+{
+  /* <motion.div
+  animate={{
+    y: [0, -20, 0], // Moves up by 20px and back
+  }}
+  transition={{
+    duration: 2,     // 2 seconds for a full up and down
+    repeat: Infinity,
+    ease: "easeInOut",
+  }}
+  style={{
+    width: "100px",
+    height: "100px",
+    backgroundColor: "#00FFFF", // A color that pops on black
+  }}
+>
+  {/* Content here */
+}
+// </motion.div> */}
