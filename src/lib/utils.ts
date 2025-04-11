@@ -8,7 +8,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function constructMetadata({
-  title = "doggedCase - custom high-quality phone cases",
+  title = "rita orow",
   description = " Backed by 9 years of hands-on experience as a licensed stockbroker and investment adviser, I’ve successfully guided clients through market highs and lows—earning trust while consistently delivering results. My work with some of the most respected firms in the United States has equipped me with the insight, precision, and strategic edge needed to help clients build and protect lasting wealth",
   image = "/favicon.png",
   icons = "/favicon.png",
@@ -34,6 +34,6 @@ export function constructMetadata({
       creator: "@ritaorowo",
     },
     icons,
-    metadataBase: new URL("https://ritaorowo.com/"),
+    metadataBase: new URL("https://ritaorow.com/"),
   };
 }
