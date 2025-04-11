@@ -236,7 +236,7 @@ export default function Home() {
                 </p>
 
                 {/* this is the image  */}
-                <div className=" mx-auto mt-6 rounded-lg overflow-hidden w-[250px] h-[250px]">
+                <div className=" mx-auto mt-6 rounded-lg overflow-hidden max-w-[250px] h-[250px]">
                   <img
                     src="/ritabtc.jpg"
                     className="h-full w-full object-cover"

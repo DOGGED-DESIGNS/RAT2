@@ -58,25 +58,25 @@ export default function Movinbg() {
               Rita Orow
             </h1>
 
-            <h2 className="font-montserrat mt-30 text-base line-clamp-2 text-zinc-500">
+            <h2 className="font-montserrat mt-30 text-base line-clamp-6 text-zinc-500">
               I can help you build and manage an investment portfolio that’s
               designed to work for you. With the right strategies, you could see
               your earnings grow by over 200%!
             </h2>
 
-            <div className=" mt-60 flex gap-10">
+            <div className=" mt-60 flex-wrap gap-3 flex lg:gap-10">
               <Button variant={"default"} size={"lg"}>
                 {" "}
                 Get Stated
               </Button>
-              <Button variant={"ghost"} size={"lg"}>
+              <Button variant={"outline"} size={"lg"}>
                 {" "}
                 Detailed Report
               </Button>
             </div>
           </div>
           <div className=" justify-self-start self-start ">
-            <div className=" rounded-lg overflow-hidden bg-zinc-600 round-md h-[500px] w-[400px]">
+            <div className=" rounded-lg overflow-hidden bg-zinc-600 round-md h-[500px] max-w-[400px]">
               <img
                 src="/ritalaptop.jpg"
                 className="h-full w-full object-cover"
