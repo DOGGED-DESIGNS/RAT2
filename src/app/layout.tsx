@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
+import Maxwidthwrapper from "@/components/Maxwidthwrapper";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main className=" ">{children}</main>
+        <main className="border border-red-800 ">
+          <Navbar />
+          {children}
+        </main>
       </body>
     </html>
   );

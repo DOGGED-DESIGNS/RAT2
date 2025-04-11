@@ -6,13 +6,16 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <>
-      <nav className="    max-sm:flex bg-zinc-100 items-center px-3 w-full hidden">
+      <nav
+        className="  sticky z-[1000] top-[0px]     max-sm:flex bg-slate-100/75
+    backdrop-blur-lg items-center  w-full hidden"
+      >
         <div className=" w-[200px]  px-4 py-3">
           <img className="w-full h-full" src="/ritalogo.svg" />
         </div>
 
         <div className=" ml-auto">
-          <Button variant={"ghost"} size={"icon"}>
+          <Button variant={"outline"} size={"icon"}>
             <MenuIcon />
           </Button>
         </div>

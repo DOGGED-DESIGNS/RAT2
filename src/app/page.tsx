@@ -55,7 +55,7 @@ export default function Home() {
   return (
     <>
       <Maxwidthwrapper newClass=" ">
-        <Navbar />
+        {/* <Navbar /> */}
 
         <div className=" ">
           <Movinbg />

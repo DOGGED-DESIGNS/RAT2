@@ -54,7 +54,7 @@ export default function Movinbg() {
               </div>
             </div>
 
-            <h1 className="font-popins text-slate-950 text-7xl font-bold my-3 ">
+            <h1 className="font-popins text-slate-950 md:4xl text-2xl  lg:text-7xl font-bold my-3 ">
               Rita orowo
             </h1>
 
