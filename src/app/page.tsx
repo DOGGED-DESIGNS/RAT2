@@ -66,9 +66,9 @@ export default function Home() {
 
         {/* licensed investment adviser */}
 
-        <div className=" bg-purple-100">
-          <div className=" py-[107px] grid max-w-screen-md  w-full m-auto gap-10 grid-cols-2">
-            <div className=" ">
+        <div className=" bg-purple-100 p-30">
+          <div className=" py-[107px] grid max-w-screen-md sm:grid-cols-1  w-full m-auto gap-30 lg:grid-cols-2">
+            <div className=" col-span-1 ">
               <div className=" overflow-hidden rounded-lg bg-zinc-500  max-w-lg  h-full">
                 <img
                   className="w-full h-full object-cover"
@@ -76,15 +76,15 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div>
+            <div className=" col-span-1  ">
               <div>
-                <h4 className=" text-base text-purple-900 font-bold">
+                <h4 className=" font-popins text-base text-purple-900 font-bold">
                   Rita orowota
                 </h4>
-                <h2 className=" text-2xl text-zinc-600 mt-5  font-bold">
+                <h2 className=" font-popins lg:text-4xl md:text-3xl text-xl  text-slate-900 mt-15  font-bold">
                   Licensed Investment Adviser
                 </h2>
-                <p className=" mt-5 line-clamp-6 text-zinc-600">
+                <p className=" mt-15 font-montserrat text-base  line-clamp-6 text-zinc-600">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Exercitationem aliquam necessitatibus dolor, quia vero
                   excepturi sit qui doloremque, quas atque tempore ullam
@@ -101,7 +101,9 @@ export default function Home() {
                   ratione fuga?
                 </p>
 
-                <Button className=" mt-5"> Send me a message</Button>
+                <Button className=" font-popins mt-30 ">
+                  Send me a message
+                </Button>
               </div>
             </div>
           </div>
@@ -110,10 +112,10 @@ export default function Home() {
         {/* financial services */}
 
         <div className=" mt-8">
-          <h6 className=" text-sm font-bold text-purple-900 text-center">
+          <h6 className=" text-sm font-popins font-bold text-purple-900 text-center">
             Ritat oraoto
           </h6>
-          <h2 className=" text-4xl font-bold mt-3 text-center">
+          <h2 className=" lg:text-4xl md:text-3xl text-xl  text-slate-900 font-popins font-bold mt-15 text-center">
             {" "}
             Financial Services
           </h2>
@@ -130,15 +132,15 @@ export default function Home() {
           <div className=" mx-auto max-w-screen-lg">
             <div>
               <div className=" mt-5 mb-12">
-                <h6 className="  text-purple-500 text-sm font-bold">
+                <h6 className=" font-popins text-purple-500 text-sm font-bold">
                   My Experience
                 </h6>
-                <h1 className=" mt-3 text-white font-bold text-4xl ">
+                <h1 className=" mt-3 font-popins text-white font-bold lg:text-4xl md:text-3xl text-xl  ">
                   My Work Experience
                 </h1>
               </div>
 
-              <div>
+              <div className="mt-60">
                 <MovingBorderDemo />
               </div>
             </div>{" "}
@@ -146,12 +148,14 @@ export default function Home() {
         </div>
 
         {/* this is the infinit movin card */}
-        <div className="  mx-auto h-[30rem] rounded-md flex flex-col antialiased bg-slate-200 dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+        <div className=" p-5 mx-auto h-[30rem] rounded-md flex flex-col antialiased bg-slate-200 dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
           <Spotlight />
           <div className=" max-w-screen-lg  mx-auto ">
-            <div className=" mb-10">
+            <div className=" mb-60">
               <h6 className=" text-sm font-bold text-purple-950">Rita oroto</h6>
-              <h2 className=" text-4xl font-bold ">Client Review</h2>
+              <h2 className=" lg:text-4xl md:text-3xl text-xl mt-12 font-bold ">
+                Client Review
+              </h2>
             </div>
             <InfiniteMovingCards
               items={testimonials}
@@ -163,47 +167,47 @@ export default function Home() {
 
         {/* brokage examination */}
 
-        <div className=" mt-10 py-6  ">
+        <div className=" mt-10 py-6 px-5  ">
           <div className=" max-w-screen-lg mx-auto ">
-            <h2 className=" text-sm text-center font-bold text-purple-900">
+            <h2 className="font-popins text-sm text-center font-bold text-purple-900">
               Rita oroto
             </h2>
-            <h1 className=" text-4xl text-center font-bold mt-4">
+            <h1 className="font-popins lg:text-4xl md:text-3xl text-xl  text-center font-bold mt-15 ">
               Brokage Examination
             </h1>
-            <div className="w-full mt-10 gap-10 grid grid-cols-3">
+            <div className="w-full mt-10 gap-10 grid-col-1 md:grid-col-2 grid lg:grid-cols-3">
               <WobbleCard containerClassName=" col-span-1 bg-slate-200  ">
                 <div>
-                  <h2 className=" font-bold text-lg  capitalize">
+                  <h2 className="font-popins font-bold text-base lg:text-lg  capitalize">
                     Security Entrance Examination
                   </h2>
                   <div className=" h-[2px] my-2 w-full bg-slate-300 " />
 
-                  <h2 className=" text-slate-600 font-bold text-base mt=5">
+                  <h2 className="font-montserrat text-slate-600 font-bold text-base mt=5">
                     General Industry/ Product Examination
                   </h2>
                 </div>
               </WobbleCard>
               <WobbleCard containerClassName=" col-span-1 bg-pink-200  ">
                 <div>
-                  <h2 className=" font-bold text-lg  capitalize">
+                  <h2 className="font-popins font-bold text-lg  capitalize">
                     Security Entrance Examination
                   </h2>
                   <div className=" h-[2px] my-2 w-full bg-slate-300 " />
 
-                  <h2 className=" text-slate-600 font-bold text-base mt=5">
+                  <h2 className=" font-montserrat text-slate-600 font-bold text-base mt=5">
                     General Industry/ Product Examination
                   </h2>
                 </div>
               </WobbleCard>
               <WobbleCard containerClassName=" col-span-1 bg-purple-200  ">
                 <div>
-                  <h2 className=" font-bold text-lg  capitalize">
+                  <h2 className="font-popins font-bold text-lg  capitalize">
                     Security Entrance Examination
                   </h2>
                   <div className=" h-[2px] my-2 w-full bg-slate-300 " />
 
-                  <h2 className=" text-slate-600 font-bold text-base mt=5">
+                  <h2 className="font-montserrat text-slate-600 font-bold text-base mt=5">
                     General Industry/ Product Examination
                   </h2>
                 </div>
@@ -213,17 +217,17 @@ export default function Home() {
         </div>
 
         {/* form section */}
-        <div className=" bg-purple-200 py-[107px]  mt-20">
+        <div className=" bg-purple-200 py-[107px] px-5  mt-20">
           <div className=" bg-slate-50 gap-10 p-10 mx-auto rounded-lg max-w-screen-lg grid lg:grid-cols-2 md:grid-col-1 grid-col-1 sm:grid-col-1 ">
             <div className="  col-span-1">
               <div className=" p-8">
-                <h6 className=" text-sm font-bold text-purple-900">
+                <h6 className="font-popins text-sm font-bold text-purple-900">
                   Get in touch
                 </h6>
-                <h2 className="text-3xl mt-3 text-slate-900 font-bold ">
+                <h2 className="text-3xl mt-3 font-popins text-slate-900 font-bold ">
                   Send me a Message
                 </h2>
-                <p className="mt-4 text-slate-500 tex-base ">
+                <p className="mt-4 font-montserrat text-slate-500 tex-base ">
                   {" "}
                   Lorem ipsum dolor sit amet.{" "}
                 </p>
@@ -291,7 +295,11 @@ export default function Home() {
                   </div>
 
                   <div>
-                    <Button className=" w-full" variant={"default"} size={"lg"}>
+                    <Button
+                      className=" font-popins w-full"
+                      variant={"default"}
+                      size={"lg"}
+                    >
                       {" "}
                       <Send /> Send Now{" "}
                     </Button>
@@ -310,12 +318,12 @@ export default function Home() {
           <div className="  ">
             <img className="w-full h-full" src="/ritalogo.svg" />
           </div>
-          <p className="text-center max-w-prose  mt-5 text-neutral-300 relative z-20">
+          <p className="text-center text-base max-w-prose font-montserrat   mt-30 text-neutral-300 relative z-20">
             I can help you build and manage a solid investment portfolio,
             significantly increasing your earning potential to over 200%.
           </p>
 
-          <p className=" text-slate-500 mt-10">
+          <p className="font-montserrat text-sm text-slate-500 mt-10">
             Copyright &copy; 2018 Rita Rowo{" "}
           </p>
         </div>

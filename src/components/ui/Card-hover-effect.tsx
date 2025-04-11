@@ -21,7 +21,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-4  lg:grid-cols-4  py-10",
+        "grid grid-cols-1 md:grid-cols-4 gap-30  lg:grid-cols-4  py-10",
         className
       )}
     >
@@ -55,9 +55,12 @@ export const HoverEffect = ({
               <div className=" h-[80px] w-[80px] mb-1">
                 <img src={item.image} className="w-full h-full " />
               </div>
-              <div> {item.title} </div>
+              <div className=" text-lg lg:text-2xl md:text-xl   mt-15 ">
+                {" "}
+                {item.title}{" "}
+              </div>
             </CardTitle>
-            <CardDescription>{item.description}</CardDescription>
+            {/* <CardDescription>{item.description}</CardDescription> */}
           </Card>
         </Link>
       ))}

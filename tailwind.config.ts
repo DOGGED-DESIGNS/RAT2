@@ -10,6 +10,29 @@ const config: Config = {
 
   theme: {
     extend: {
+      fontFamily: {
+        opensan: ["Open Sans", "sans-serif"],
+        popins: ["Poppins", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+      },
+      spacing: {
+        "60": "3.75rem",
+        "107": "6.6875rem",
+        "12": "0.75rem",
+        "18": "1.125rem",
+        "15": "0.9375rem",
+        "20": "1.25rem",
+        "24": "1.5rem",
+        "30": "1.875rem",
+      },
+      fontSize: {
+        "36": "2.25rem",
+        "24": "1.5rem",
+        "18": "1.125rem",
+        "15": "0.9375rem",
+        "12": "0.75rem",
+      },
       animation: {
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",

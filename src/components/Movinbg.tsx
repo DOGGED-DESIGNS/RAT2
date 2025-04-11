@@ -48,29 +48,29 @@ export default function Movinbg() {
           <div className=" ">
             <div className="flex">
               <div className="  p-2 mr-auto bg-purple-100 border border-zinc-100 rounded-sm ">
-                <h4 className="text-sm font-bold capitalize text-zinc-700 ">
+                <h4 className=" font-popins text-sm font-bold capitalize text-zinc-700 ">
                   LICENSED INVESTMENT ADVISER
                 </h4>
               </div>
             </div>
 
-            <h1 className=" text-7xl font-bold my-3 ">
-              Rita orota <br /> oroto
+            <h1 className="font-popins text-slate-950 text-7xl font-bold my-3 ">
+              Rita orowo
             </h1>
 
-            <h2 className=" mt-5 text-base line-clamp-2 text-zinc-500">
+            <h2 className="font-montserrat mt-30 text-base line-clamp-2 text-zinc-500">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Inventore officia illo eveniet autem temporibus ullam incidunt rem
               id tempora tempore accusamus voluptatum quisquam aliquid
               voluptatem non animi, ducimus ratione labore.{" "}
             </h2>
 
-            <div className=" mt-6 flex gap-10">
+            <div className=" mt-60 flex gap-10">
               <Button variant={"default"} size={"lg"}>
                 {" "}
                 Get Stated
               </Button>
-              <Button variant={"outline"} size={"lg"}>
+              <Button variant={"ghost"} size={"lg"}>
                 {" "}
                 Detailed Report
               </Button>

@@ -5,7 +5,7 @@ import { Button } from "./ui/Movingborder";
 
 export function MovingBorderDemo() {
   return (
-    <div className=" mt-6 grid grid-cols-2  gap-10 max-w-screen-lg m-auto ">
+    <div className=" mt-6 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-10 max-w-screen-lg m-auto ">
       <Button
         borderRadius="0.75rem"
         duration={Math.floor(Math.random() * 10000 + 10000)}
