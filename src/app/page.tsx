@@ -24,32 +24,33 @@ export default function Home() {
   const testimonials = [
     {
       quote:
-        "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-      name: "Charles Dickens",
-      title: "A Tale of Two Cities",
+        "Working with Rita Orowo has completely transformed my investment strategy. Her expert guidance helped me navigate complex decisions, and my portfolio is now performing better than ever. I couldn't be more satisfied with the results!",
+      name: "Sarah T",
+      title: "",
     },
     {
       quote:
-        "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-      name: "William Shakespeare",
-      title: "Hamlet",
-    },
-    {
-      quote: "All that we see or seem is but a dream within a dream.",
-      name: "Edgar Allan Poe",
-      title: "A Dream Within a Dream",
+        "I was hesitant to invest at first, but Rita Orowo made the process easy to understand and personalized for my goals. My portfolio has grown significantly, and I feel confident in my financial future. Highly recommend!",
+      name: "Alex R",
+      title: "",
     },
     {
       quote:
-        "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-      name: "Jane Austen",
-      title: "Pride and Prejudice",
+        "Thanks to Rita Orowo, I've seen my portfolio grow by over 200%! The strategic planning and constant support were key in achieving these results. I now feel secure and well-prepared for the future.",
+      name: "Olivia K",
+      title: "",
     },
     {
       quote:
-        "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-      name: "Herman Melville",
-      title: "Moby-Dick",
+        "I’ve worked with several financial advisors, but none have been as hands-on and insightful as Rita Orowo. She crafted a plan that perfectly aligns with my risk tolerance and financial goals. My portfolio is thriving!",
+      name: "Michael L",
+      title: "",
+    },
+    {
+      quote:
+        "The financial growth I’ve experienced under Rita Orowo's management is beyond my expectations. She takes the time to truly understand my needs and creates customized strategies that work. It’s been an incredible journey.",
+      name: "Emily W",
+      title: "",
     },
   ];
   return (
@@ -72,7 +73,7 @@ export default function Home() {
               <div className=" overflow-hidden rounded-lg bg-zinc-500  max-w-lg  h-full">
                 <img
                   className="w-full h-full object-cover"
-                  src="/ritalaptop.jpg"
+                  src="/ritalambo.jpg"
                 />
               </div>
             </div>
@@ -84,21 +85,24 @@ export default function Home() {
                 <h2 className=" font-popins lg:text-4xl md:text-3xl text-xl  text-slate-900 mt-15  font-bold">
                   Licensed Investment Adviser
                 </h2>
-                <p className=" mt-15 font-montserrat text-base  line-clamp-6 text-zinc-600">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Exercitationem aliquam necessitatibus dolor, quia vero
-                  excepturi sit qui doloremque, quas atque tempore ullam
-                  voluptates dolorum optio. Perferendis eligendi reiciendis
-                  voluptatem fugit optio inventore rerum doloremque quae animi
-                  corrupti sunt hic aliquam fugiat, autem molestias
-                  necessitatibus? Rerum iste, eius magni veritatis cupiditate ab
-                  aut minima asperiores totam deserunt possimus est libero
-                  nostrum sint non molestias, impedit incidunt porro tempora?
-                  Optio nulla tempora consequatur neque ut iusto velit, at
-                  ipsum! Laudantium earum quas totam cum obcaecati illum optio
-                  odio, perspiciatis explicabo doloribus adipisci laboriosam
-                  minima aliquid mollitia officiis beatae tenetur accusantium
-                  ratione fuga?
+                <p className=" mt-15 font-montserrat text-base line-clamp-[14]   text-zinc-600">
+                  I am committed to building strong, long-term relationships
+                  with my clients, founded on mutual respect, trust, and a
+                  personalized approach to financial planning. Your financial
+                  success is my priority, and I work tirelessly to deliver the
+                  best solutions that align with your unique needs. I specialize
+                  in partnering with private companies, non-profits, and
+                  individuals to optimize their financial strategies and foster
+                  long-term growth. What sets me apart is not just my knowledge
+                  but my dedication to understanding the bigger picture of your
+                  financial life. Whether you’re an individual securing your
+                  future, a company seeking growth, or a non-profit striving for
+                  sustainability, I offer actionable strategies that produce
+                  real, measurable results. Navigating finance can be complex,
+                  and many feel overwhelmed by choices. I simplify the process,
+                  offering clarity and guidance. Let’s talk about how I can help
+                  you achieve your financial goals, and know that I’m always
+                  here to answer your questions and provide expert advice
                 </p>
 
                 <Button className=" font-popins mt-30 ">
@@ -228,8 +232,7 @@ export default function Home() {
                   Send me a Message
                 </h2>
                 <p className="mt-4 font-montserrat text-slate-500 tex-base ">
-                  {" "}
-                  Lorem ipsum dolor sit amet.{" "}
+                  Financial Consultant | Investment Adviser
                 </p>
 
                 {/* this is the image  */}
@@ -361,3 +364,5 @@ export default function Home() {
   {/* Content here */
 }
 // </motion.div> */}
+
+// Backed by 9 years of hands-on experience as a licensed stockbroker and investment adviser, I’ve successfully guided clients through market highs and lows—earning trust while consistently delivering results. My work with some of the most respected firms in the United States has equipped me with the insight, precision, and strategic edge needed to help clients build and protect lasting wealth.

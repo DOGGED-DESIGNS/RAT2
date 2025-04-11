@@ -48,7 +48,7 @@ export default function Movinbg() {
           <div className=" ">
             <div className="flex">
               <div className="  p-2 mr-auto bg-purple-100 border border-zinc-100 rounded-sm ">
-                <h4 className=" font-popins text-sm font-bold capitalize text-zinc-700 ">
+                <h4 className=" font-popins text-sm font-semibold   capitalize text-purple-500  tracking-widest ">
                   LICENSED INVESTMENT ADVISER
                 </h4>
               </div>
@@ -59,10 +59,9 @@ export default function Movinbg() {
             </h1>
 
             <h2 className="font-montserrat mt-30 text-base line-clamp-2 text-zinc-500">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Inventore officia illo eveniet autem temporibus ullam incidunt rem
-              id tempora tempore accusamus voluptatum quisquam aliquid
-              voluptatem non animi, ducimus ratione labore.{" "}
+              I can help you build and manage an investment portfolio that’s
+              designed to work for you. With the right strategies, you could see
+              your earnings grow by over 200%!
             </h2>
 
             <div className=" mt-60 flex gap-10">
@@ -79,7 +78,7 @@ export default function Movinbg() {
           <div className=" justify-self-start self-start ">
             <div className=" rounded-lg overflow-hidden bg-zinc-600 round-md h-[500px] w-[400px]">
               <img
-                src="/ritalambo.jpg"
+                src="/ritalaptop.jpg"
                 className="h-full w-full object-cover"
               />
             </div>

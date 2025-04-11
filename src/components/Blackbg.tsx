@@ -9,13 +9,15 @@ export function BackgroundBeamsDemo() {
         <div className="w-full h-full ">
           <div className="lg:flex-row lg:items-center flex h-full justify-around  flex-col   ">
             <div>
-              <h1 className=" text-6xl font-bold text-center text-white">9+</h1>
+              <h1 className=" lg:text-6xl text-2xl font-bold text-center text-white">
+                9+
+              </h1>
               <h6 className=" text-base text-center mt-15 text-zinc-300">
                 Years of Experience
               </h6>
             </div>
             <div>
-              <h1 className=" text-6xl font-bold text-center text-white">
+              <h1 className=" lg:text-6xl text-2xl font-bold text-center text-white">
                 19+
               </h1>
               <h6 className=" text-base text-center mt-15 text-zinc-300">
@@ -23,7 +25,7 @@ export function BackgroundBeamsDemo() {
               </h6>
             </div>
             <div>
-              <h1 className=" text-6xl font-bold text-center text-white">
+              <h1 className="lg:text-6xl text-2xl font-bold text-center text-white">
                 700+
               </h1>
               <h6 className="mt-15 text-base text-center text-zinc-300">
@@ -31,7 +33,7 @@ export function BackgroundBeamsDemo() {
               </h6>
             </div>
             <div>
-              <h1 className=" text-6xl font-bold text-center text-white">
+              <h1 className=" lg:text-6xl text-2xl font-bold text-center text-white">
                 1.7k
               </h1>
               <h6 className=" text-base text-center mt-15 text-zinc-300">

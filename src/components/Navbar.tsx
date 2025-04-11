@@ -14,13 +14,16 @@ export default function Navbar() {
           <img className="w-full h-full" src="/ritalogo.svg" />
         </div>
 
-        <div className=" ml-auto">
+        <div className=" ml-auto mr-3">
           <Button variant={"outline"} size={"icon"}>
             <MenuIcon />
           </Button>
         </div>
       </nav>
-      <nav className=" max-sm:hidden py-4 bg-zinc-100 items-center px-3 w-full items-center flex">
+      <nav
+        className=" sticky z-[1000] top-[0px] bg-slate-100/75
+    backdrop-blur-lg max-sm:hidden py-4 bg-zinc-100  px-3 w-full items-center flex"
+      >
         <div className=" w-[200px] px-4">
           <img className="w-full h-full" src="/ritalogo.svg" />
         </div>

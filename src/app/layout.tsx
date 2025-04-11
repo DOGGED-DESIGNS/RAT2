@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main className="border border-red-800 ">
+        <main className=" ">
           <Navbar />
           {children}
         </main>
