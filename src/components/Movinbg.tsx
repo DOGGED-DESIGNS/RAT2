@@ -64,7 +64,7 @@ export default function Movinbg() {
               your earnings grow by over 200%!
             </h2>
 
-            <div className=" mt-60 flex-wrap gap-3 flex lg:gap-10">
+            <div className=" mb-60 mt-30 flex-wrap gap-3 flex lg:gap-10">
               <Button variant={"default"} size={"lg"}>
                 {" "}
                 Get Stated

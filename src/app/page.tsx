@@ -221,10 +221,10 @@ export default function Home() {
         </div>
 
         {/* form section */}
-        <div className=" bg-purple-200 py-[107px] px-5  mt-20">
-          <div className=" bg-slate-50 gap-10 p-10 mx-auto rounded-lg max-w-screen-lg grid lg:grid-cols-2 md:grid-col-1 grid-col-1 sm:grid-col-1 ">
+        <div className=" bg-purple-200 py-[107px] px-1  mt-20">
+          <div className=" bg-slate-50 gap-10 p-2 mx-auto rounded-lg max-w-screen-lg grid lg:grid-cols-2 md:grid-col-1 grid-col-1 sm:grid-col-1 ">
             <div className="  col-span-1">
-              <div className=" p-8">
+              <div className=" p-2">
                 <h6 className="font-popins text-sm font-bold text-purple-900">
                   Get in touch
                 </h6>
