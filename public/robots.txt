@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.ritaorow.com
+
+# Sitemaps
+Sitemap: https://www.ritaorow.com/sitemap.xml
