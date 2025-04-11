@@ -24,31 +24,31 @@ export default function Home() {
   const testimonials = [
     {
       quote:
-        "Working with Rita Orowo has completely transformed my investment strategy. Her expert guidance helped me navigate complex decisions, and my portfolio is now performing better than ever. I couldn't be more satisfied with the results!",
+        "Working with Rita Orow has completely transformed my investment strategy. Her expert guidance helped me navigate complex decisions, and my portfolio is now performing better than ever. I couldn't be more satisfied with the results!",
       name: "Sarah T",
       title: "",
     },
     {
       quote:
-        "I was hesitant to invest at first, but Rita Orowo made the process easy to understand and personalized for my goals. My portfolio has grown significantly, and I feel confident in my financial future. Highly recommend!",
+        "I was hesitant to invest at first, but Rita Orow made the process easy to understand and personalized for my goals. My portfolio has grown significantly, and I feel confident in my financial future. Highly recommend!",
       name: "Alex R",
       title: "",
     },
     {
       quote:
-        "Thanks to Rita Orowo, I've seen my portfolio grow by over 200%! The strategic planning and constant support were key in achieving these results. I now feel secure and well-prepared for the future.",
+        "Thanks to Rita Orow, I've seen my portfolio grow by over 200%! The strategic planning and constant support were key in achieving these results. I now feel secure and well-prepared for the future.",
       name: "Olivia K",
       title: "",
     },
     {
       quote:
-        "I’ve worked with several financial advisors, but none have been as hands-on and insightful as Rita Orowo. She crafted a plan that perfectly aligns with my risk tolerance and financial goals. My portfolio is thriving!",
+        "I’ve worked with several financial advisors, but none have been as hands-on and insightful as Rita Orow. She crafted a plan that perfectly aligns with my risk tolerance and financial goals. My portfolio is thriving!",
       name: "Michael L",
       title: "",
     },
     {
       quote:
-        "The financial growth I’ve experienced under Rita Orowo's management is beyond my expectations. She takes the time to truly understand my needs and creates customized strategies that work. It’s been an incredible journey.",
+        "The financial growth I’ve experienced under Rita Orow's management is beyond my expectations. She takes the time to truly understand my needs and creates customized strategies that work. It’s been an incredible journey.",
       name: "Emily W",
       title: "",
     },
@@ -80,7 +80,7 @@ export default function Home() {
             <div className=" col-span-1  ">
               <div>
                 <h4 className=" font-popins text-base text-purple-900 font-bold">
-                  Rita orowota
+                  Rita Orowta
                 </h4>
                 <h2 className=" font-popins lg:text-4xl md:text-3xl text-xl  text-slate-900 mt-15  font-bold">
                   Licensed Investment Adviser
