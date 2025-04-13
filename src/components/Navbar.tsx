@@ -7,10 +7,10 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className="  sticky z-[1000] top-[0px]     max-sm:flex bg-slate-100/75
+        className="  sticky z-[1000] top-[0px] h-[50px]    max-sm:flex bg-slate-100/75
     backdrop-blur-lg items-center  w-full hidden"
       >
-        <div className=" w-[200px]  px-4 py-3">
+        <div className=" w-[130px]  px-4 py-3">
           <img className="w-full h-full" src="/ritalogo.svg" />
         </div>
 

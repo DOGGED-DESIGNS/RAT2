@@ -82,10 +82,10 @@ export default function Home() {
                 <h4 className=" font-popins text-base text-purple-900 font-bold">
                   Rita Orowta
                 </h4>
-                <h2 className=" font-popins lg:text-4xl md:text-3xl text-xl  text-slate-900 mt-15  font-bold">
+                <h2 className=" font-popins lg:text-4xl md:text-3xl text-lg  text-slate-900 mt-15  font-bold">
                   Licensed Investment Adviser
                 </h2>
-                <p className=" mt-15 font-montserrat text-base line-clamp-[14]   text-zinc-600">
+                <p className=" mt-15 font-montserrat text-sm line-clamp-[14]   text-zinc-600">
                   I am committed to building strong, long-term relationships
                   with my clients, founded on mutual respect, trust, and a
                   personalized approach to financial planning. Your financial
@@ -98,14 +98,10 @@ export default function Home() {
                   financial life. Whether you’re an individual securing your
                   future, a company seeking growth, or a non-profit striving for
                   sustainability, I offer actionable strategies that produce
-                  real, measurable results. Navigating finance can be complex,
-                  and many feel overwhelmed by choices. I simplify the process,
-                  offering clarity and guidance. Let’s talk about how I can help
-                  you achieve your financial goals, and know that I’m always
-                  here to answer your questions and provide expert advice
+                  real, measurable results.
                 </p>
 
-                <Button className=" font-popins mt-30 ">
+                <Button className=" font-bold text-sm  capitalize font-popins mt-30 ">
                   Send me a message
                 </Button>
               </div>
