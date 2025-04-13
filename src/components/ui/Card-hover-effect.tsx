@@ -1,6 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "motion/react";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -21,7 +22,7 @@ export const HoverEffect = ({
   return (
     <div
       className={cn(
-        "grid grid-cols-1 md:grid-cols-4 gap-30  lg:grid-cols-4  py-10",
+        "grid grid-cols-1 md:grid-cols-4 gap-30    lg:grid-cols-4  py-10",
         className
       )}
     >
@@ -52,10 +53,15 @@ export const HoverEffect = ({
           </AnimatePresence>
           <Card>
             <CardTitle>
-              <div className=" h-[80px] w-[80px] mb-1">
-                <img src={item.image} className="w-full h-full " />
+              <div className=" relative  lg:h-[80px] lg:w-[80px] w-[50px] h-[50px] mb-1">
+                <Image
+                  alt="icon"
+                  fill
+                  className="object-contain"
+                  src={item.image}
+                />
               </div>
-              <div className=" text-lg lg:text-2xl md:text-xl   mt-15 ">
+              <div className=" text-sm  font-bold lg:text-xl md:text-xl   mt-15 ">
                 {" "}
                 {item.title}{" "}
               </div>

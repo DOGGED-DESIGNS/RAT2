@@ -115,7 +115,7 @@ export default function Home() {
           <h6 className=" text-sm font-popins font-bold text-purple-900 text-center">
             Ritat oraoto
           </h6>
-          <h2 className=" lg:text-4xl md:text-3xl text-xl  text-slate-900 font-popins font-bold mt-15 text-center">
+          <h2 className=" lg:text-4xl md:text-3xl text-lg  text-slate-900 font-popins font-bold mt-15 text-center">
             {" "}
             Financial Services
           </h2>
