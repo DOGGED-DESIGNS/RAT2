@@ -128,7 +128,7 @@ export default function Home() {
         <CardHoverEffectDemo />
 
         {/* this is another section */}
-        <div className="   px-5 py-10  m-auto bg-slate-900   mt-9">
+        {/* <div className="   px-5 py-10  m-auto bg-slate-900   mt-9">
           <div className=" mx-auto max-w-screen-lg">
             <div>
               <div className=" mt-5 mb-12">
@@ -145,7 +145,7 @@ export default function Home() {
               </div>
             </div>{" "}
           </div>
-        </div>
+        </div> */}
 
         {/* this is the infinit movin card */}
         <div className=" p-5 mx-auto h-[30rem] rounded-md flex flex-col antialiased bg-slate-200 dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
