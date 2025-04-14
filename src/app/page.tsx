@@ -113,8 +113,8 @@ export default function Home() {
         {/* financial services */}
 
         <div className=" mt-8">
-          <h6 className=" text-sm font-popins font-bold text-purple-900 text-center">
-            Ritat oraoto
+          <h6 className="capitalize text-sm font-popins font-bold text-purple-900 text-center">
+            Ritat orow
           </h6>
           <h2 className=" lg:text-4xl md:text-3xl text-lg  text-slate-900 font-popins font-bold mt-15 text-center">
             {" "}
