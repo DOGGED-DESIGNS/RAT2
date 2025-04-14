@@ -64,7 +64,7 @@ export default function Home() {
         </div>
 
         {/* this is the ther one */}
-        <BackgroundBeamsDemo />
+        {/* <BackgroundBeamsDemo /> */}
 
         {/* licensed investment adviser */}
 
