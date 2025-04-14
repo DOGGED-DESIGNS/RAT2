@@ -80,12 +80,12 @@ export default function Home() {
             <div className=" col-span-1  ">
               <div>
                 <h4 className=" font-popins text-base text-purple-900 font-bold">
-                  Rita Orowta
+                  Rita Orow
                 </h4>
                 <h2 className=" font-popins lg:text-4xl md:text-3xl text-lg  text-slate-900 mt-15  font-bold">
                   Licensed Investment Adviser
                 </h2>
-                <p className=" mt-15 font-montserrat text-sm line-clamp-[14]   text-zinc-600">
+                <p className=" mt-15 font-montserrat text-sm   text-zinc-600">
                   I am committed to building strong, long-term relationships
                   with my clients, founded on mutual respect, trust, and a
                   personalized approach to financial planning. Your financial
@@ -169,8 +169,8 @@ export default function Home() {
 
         <div className=" mt-10 py-6 px-5  ">
           <div className=" max-w-screen-lg mx-auto ">
-            <h2 className="font-popins text-sm text-center font-bold text-purple-900">
-              Rita oroto
+            <h2 className=" capitalize font-popins text-sm text-center font-bold text-purple-900">
+              Rita orow
             </h2>
             <h1 className="font-popins lg:text-4xl md:text-3xl text-xl  text-center font-bold mt-15 ">
               Brokage Examination
@@ -224,7 +224,7 @@ export default function Home() {
                 <h6 className="font-popins text-sm font-bold text-purple-900">
                   Get in touch
                 </h6>
-                <h2 className="text-3xl mt-3 font-popins text-slate-900 font-bold ">
+                <h2 className=" text-lg md:text-xl  lg:text-3xl mt-3 font-popins text-slate-900 font-bold ">
                   Send me a Message
                 </h2>
                 <p className="mt-4 font-montserrat text-slate-500 tex-base ">
@@ -314,10 +314,10 @@ export default function Home() {
           <div className="absolute inset-0 w-full h-full bg-slate-950 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
 
           <Boxes />
-          <div className="  ">
+          <div className=" w-[200px]  ">
             <img className="w-full h-full" src="/ritalogo.svg" />
           </div>
-          <p className="text-center text-base max-w-prose font-montserrat   mt-30 text-neutral-300 relative z-20">
+          <p className="text-center text-sm lg:text-base md:text-base max-w-prose font-montserrat   mt-30 text-neutral-300 relative z-20">
             I can help you build and manage a solid investment portfolio,
             significantly increasing your earning potential to over 200%.
           </p>

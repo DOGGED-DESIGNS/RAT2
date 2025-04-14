@@ -6,7 +6,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 export default function Navbar() {
-  const [tog, setTog] = useState<boolean>(true);
+  const [tog, setTog] = useState<boolean>(false);
   return (
     <>
       <motion.nav

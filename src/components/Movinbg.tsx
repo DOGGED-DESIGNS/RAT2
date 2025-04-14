@@ -34,7 +34,7 @@ export default function Movinbg() {
             <div className="flex">
               <div className="  p-2 mr-auto bg-purple-100 border border-zinc-100 rounded-sm ">
                 <h4 className=" font-popins lg:text-sm md:text-sm sm:text-sm text-[10px] font-semibold   capitalize text-purple-500  tracking-wide ">
-                  LICENSED INVESTMENT ADVISER
+                  LICENSED INVESTMENT ADVISER AND STOCK BROKER
                 </h4>
               </div>
             </div>
