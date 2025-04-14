@@ -40,7 +40,7 @@ export default function Movinbg() {
             </div>
 
             <h1 className="font-popins text-slate-950 md:4xl text-2xl tracking-widest  lg:text-7xl font-bold my-3 ">
-              Rita Orow
+              Rita Samir Orow
             </h1>
 
             <h2 className="font-montserrat mt-15 text-sm line-clamp-6 text-zinc-500">

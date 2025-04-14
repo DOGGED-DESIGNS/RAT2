@@ -68,8 +68,8 @@ export default function Home() {
 
         {/* licensed investment adviser */}
 
-        <div className=" bg-purple-100 p-30">
-          <div className=" py-[107px] grid max-w-screen-md sm:grid-cols-1  w-full m-auto gap-30 lg:grid-cols-2">
+        <div className=" bg-purple-100 ">
+          <div className=" py-[107px] grid max-w-screen-md sm:grid-cols-1 px-2  w-full m-auto gap-30 lg:grid-cols-2">
             <div className=" col-span-1 ">
               <div className=" overflow-hidden rounded-lg bg-zinc-500  max-w-lg  h-full">
                 <img
@@ -168,7 +168,7 @@ export default function Home() {
 
         {/* brokage examination */}
 
-        <div className=" mt-10 py-6 px-5  ">
+        <div className=" mt-10 py-6 px-2  ">
           <div className=" max-w-screen-lg mx-auto ">
             <h2 className=" capitalize font-popins text-sm text-center font-bold text-purple-900">
               Rita orow
@@ -300,7 +300,7 @@ export default function Home() {
 
         {/* fotter section */}
         <div className="h-96 relative w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center ">
-          <div className="absolute p-2 inset-0 w-full h-full bg-slate-950 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
+          <div className="absolute px-2 inset-0 w-full h-full bg-slate-950 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
 
           <Boxes />
           <div className="relative h-[80px] w-[200px]  ">

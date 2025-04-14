@@ -4,7 +4,7 @@ import { Button, buttonVariants } from "./ui/button";
 import { EyeClosed, Headphones, Headset, MenuIcon, Mic, X } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-
+import Image from "next/image";
 export default function Navbar() {
   const [tog, setTog] = useState<boolean>(false);
   return (
@@ -31,11 +31,16 @@ export default function Navbar() {
         }
       >
         <div
-          className="     max-sm:flex 
+          className=" h-[50px] max-sm:flex 
      items-center  w-full hidden"
         >
-          <div className=" w-[130px]  px-4 py-3">
-            <img className="w-full h-full" src="/ritalogo.svg" />
+          <div className=" relative w-[120px] h-[120px]  px-4 py-3">
+            <Image
+              alt="logo"
+              className="p-2 object-contain"
+              fill
+              src="/ritalogo.svg"
+            />
           </div>
 
           <div onClick={() => setTog(!tog)} className="ml-auto mr-3">
@@ -75,12 +80,30 @@ export default function Navbar() {
         </div>
 
         <div className=" ml-auto   flex space-x-10">
-          <Link href={"#"}> Home </Link>
-          <Link href={"#"}> About Me </Link>
-          <Link href={"#"}> Service </Link>
-          <Link href={"#"}> Work Experience </Link>
-          <Link href={"#"}> Client Review </Link>
-          <Link href={"#"}> Contact Me </Link>
+          <Link href={"#"} className="font-medium hover:text-purple-500">
+            {" "}
+            Home{" "}
+          </Link>
+          <Link href={"#"} className="font-medium hover:text-purple-500">
+            {" "}
+            About Me{" "}
+          </Link>
+          <Link href={"#"} className="font-medium hover:text-purple-500">
+            {" "}
+            Service{" "}
+          </Link>
+          <Link href={"#"} className="font-medium hover:text-purple-500">
+            {" "}
+            Work Experience{" "}
+          </Link>
+          <Link href={"#"} className="font-medium hover:text-purple-500">
+            {" "}
+            Client Review{" "}
+          </Link>
+          <Link href={"#"} className="font-medium hover:text-purple-500">
+            {" "}
+            Contact Me{" "}
+          </Link>
         </div>
 
         <div className=" ml-auto flex gap-3 ">
