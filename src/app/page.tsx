@@ -1,6 +1,7 @@
 import Maxwidthwrapper from "@/components/Maxwidthwrapper";
 import Movinbg from "@/components/Movinbg";
 import Navbar from "@/components/Navbar";
+// import { Image } from "next/image";
 
 import { AuroraBackground } from "@/components/ui/Arorabg";
 import { motion } from "framer-motion";
@@ -9,7 +10,7 @@ import Image from "next/image";
 import { BackgroundBeamsDemo } from "@/components/Blackbg";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { CardHoverEffectDemo } from "@/components/Cards";
-import { MovingBorderDemo } from "@/components/Moving";
+// import { MovingBorderDemo } from "@/components/Moving";
 import { InfiniteMovingCards } from "@/components/ui/Infinite-moving";
 import { Spotlight } from "@/components/ui/Spotlight";
 import { WobbleCard } from "@/components/ui/Wobble-card";
@@ -86,19 +87,19 @@ export default function Home() {
                   Licensed Investment Adviser
                 </h2>
                 <p className=" mt-15 font-montserrat text-sm   text-zinc-600">
-                  I am committed to building strong, long-term relationships
-                  with my clients, founded on mutual respect, trust, and a
-                  personalized approach to financial planning. Your financial
-                  success is my priority, and I work tirelessly to deliver the
-                  best solutions that align with your unique needs. I specialize
-                  in partnering with private companies, non-profits, and
-                  individuals to optimize their financial strategies and foster
-                  long-term growth. What sets me apart is not just my knowledge
-                  but my dedication to understanding the bigger picture of your
-                  financial life. Whether you’re an individual securing your
-                  future, a company seeking growth, or a non-profit striving for
-                  sustainability, I offer actionable strategies that produce
-                  real, measurable results.
+                  As a LICENSED INVESTMENT ADVISER AND STOCK BROKER, I am
+                  unwavering in my commitment to building long-term client
+                  relationships rooted in trust, respect, and personalized
+                  financial strategies. Your financial success is not just a
+                  goal—it’s my mission. I bring deep expertise and a strategic
+                  mindset to every engagement, partnering with private
+                  companies, non-profits, and individuals to drive meaningful
+                  growth. What sets me apart is a relentless focus on the bigger
+                  picture of your financial life—delivering clear,
+                  results-driven solutions tailored to your unique goals.
+                  Whether you're securing your future or scaling your
+                  organization, I provide insight and action that deliver
+                  measurable impact.
                 </p>
 
                 <Button className=" font-bold text-sm  capitalize font-popins mt-30 ">
@@ -172,44 +173,32 @@ export default function Home() {
             <h2 className=" capitalize font-popins text-sm text-center font-bold text-purple-900">
               Rita orow
             </h2>
-            <h1 className="font-popins lg:text-4xl md:text-3xl text-xl  text-center font-bold mt-15 ">
+            <h1 className="font-popins lg:text-3xl md:text-2xl text-lg  text-center font-bold mt-15 ">
               Brokage Examination
             </h1>
             <div className="w-full mt-10 gap-10 grid-col-1 md:grid-col-2 grid lg:grid-cols-3">
               <WobbleCard containerClassName=" col-span-1 bg-slate-200  ">
                 <div>
-                  <h2 className="font-popins font-bold text-base lg:text-lg  capitalize">
-                    Security Entrance Examination
+                  <h2 className="font-popins font-bold text-base lg:text-lg md:text-base text-sm  capitalize">
+                    Principal/Supervisory Exams
                   </h2>
                   <div className=" h-[2px] my-2 w-full bg-slate-300 " />
-
-                  <h2 className="font-montserrat text-slate-600 font-bold text-base mt=5">
-                    General Industry/ Product Examination
-                  </h2>
                 </div>
               </WobbleCard>
               <WobbleCard containerClassName=" col-span-1 bg-pink-200  ">
                 <div>
-                  <h2 className="font-popins font-bold text-lg  capitalize">
-                    Security Entrance Examination
+                  <h2 className="font-popins font-bold lg:text-lg text-sm md:text-lg  capitalize">
+                    General Industry/Product Exams
                   </h2>
                   <div className=" h-[2px] my-2 w-full bg-slate-300 " />
-
-                  <h2 className=" font-montserrat text-slate-600 font-bold text-base mt=5">
-                    General Industry/ Product Examination
-                  </h2>
                 </div>
               </WobbleCard>
               <WobbleCard containerClassName=" col-span-1 bg-purple-200  ">
                 <div>
-                  <h2 className="font-popins font-bold text-lg  capitalize">
-                    Security Entrance Examination
+                  <h2 className="font-popins font-bold lg:text-lg md:text-base text-sm  capitalize">
+                    State Securities Law Exams
                   </h2>
                   <div className=" h-[2px] my-2 w-full bg-slate-300 " />
-
-                  <h2 className="font-montserrat text-slate-600 font-bold text-base mt=5">
-                    General Industry/ Product Examination
-                  </h2>
                 </div>
               </WobbleCard>
             </div>
@@ -224,11 +213,11 @@ export default function Home() {
                 <h6 className="font-popins text-sm font-bold text-purple-900">
                   Get in touch
                 </h6>
-                <h2 className=" text-lg md:text-xl  lg:text-3xl mt-3 font-popins text-slate-900 font-bold ">
+                <h2 className=" text-base md:text-2xl  lg:text-3xl mt-3 font-popins text-slate-900 font-bold ">
                   Send me a Message
                 </h2>
-                <p className="mt-4 font-montserrat text-slate-500 tex-base ">
-                  Financial Consultant | Investment Adviser
+                <p className="lg:text-base md:text-base text-sm mt-4 font-montserrat text-slate-500 tex-base ">
+                  Financial Consultant | Investment Adviser | broker
                 </p>
 
                 {/* this is the image  */}
@@ -311,13 +300,18 @@ export default function Home() {
 
         {/* fotter section */}
         <div className="h-96 relative w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center ">
-          <div className="absolute inset-0 w-full h-full bg-slate-950 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
+          <div className="absolute p-2 inset-0 w-full h-full bg-slate-950 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
 
           <Boxes />
-          <div className=" w-[200px]  ">
-            <img className="w-full h-full" src="/ritalogo.svg" />
+          <div className="relative h-[80px] w-[200px]  ">
+            <Image
+              alt="logo"
+              fill
+              className="object-contain  "
+              src="/ritalogo.svg"
+            />
           </div>
-          <p className="text-center text-sm lg:text-base md:text-base max-w-prose font-montserrat   mt-30 text-neutral-300 relative z-20">
+          <p className="text-center text-sm lg:text-base md:text-base max-w-prose font-montserrat   mt-30 text-neutral-400 relative z-20">
             I can help you build and manage a solid investment portfolio,
             significantly increasing your earning potential to over 200%.
           </p>

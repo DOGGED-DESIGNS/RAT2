@@ -18,7 +18,7 @@ export function BackgroundBeamsDemo() {
             </div>
             <div>
               <h1 className=" lg:text-6xl text-2xl font-bold text-center text-white">
-                19+
+                14+
               </h1>
               <h6 className=" text-base text-center mt-15 text-zinc-300">
                 State Licenses
