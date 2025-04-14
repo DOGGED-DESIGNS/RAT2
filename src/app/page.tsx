@@ -7,7 +7,7 @@ import { AuroraBackground } from "@/components/ui/Arorabg";
 import { motion } from "framer-motion";
 
 import Image from "next/image";
-// import { BackgroundBeamsDemo } from "@/components/Blackbg";
+import { BackgroundBeamsDemo } from "@/components/Blackbg";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { CardHoverEffectDemo } from "@/components/Cards";
 // import { MovingBorderDemo } from "@/components/Moving";
@@ -63,6 +63,8 @@ export default function Home() {
           <Movinbg />
         </div>
 
+        <BackgroundBeamsDemo />
+
         <div className=" bg-purple-100 ">
           <div className=" py-[107px] grid max-w-screen-md sm:grid-cols-1 px-2  w-full m-auto gap-30 lg:grid-cols-2">
             <div className=" col-span-1 ">
@@ -86,13 +88,13 @@ export default function Home() {
                   unwavering in my commitment to building long-term client
                   relationships rooted in trust, respect, and personalized
                   financial strategies. Your financial success is not just a
-                  goal—it’s my mission. I bring deep expertise and a strategic
-                  mindset to every engagement, partnering with private
+                  goal—it&apos;s my mission. I bring deep expertise and a
+                  strategic mindset to every engagement, partnering with private
                   companies, non-profits, and individuals to drive meaningful
                   growth. What sets me apart is a relentless focus on the bigger
                   picture of your financial life—delivering clear,
                   results-driven solutions tailored to your unique goals.
-                  Whether you're securing your future or scaling your
+                  Whether you&apos;re securing your future or scaling your
                   organization, I provide insight and action that deliver
                   measurable impact.
                 </p>
@@ -174,7 +176,7 @@ export default function Home() {
             <div className="w-full mt-10 gap-10 grid-col-1 md:grid-col-2 grid lg:grid-cols-3">
               <WobbleCard containerClassName=" col-span-1 bg-slate-200  ">
                 <div>
-                  <h2 className="font-popins font-bold text-base lg:text-lg md:text-base text-sm  capitalize">
+                  <h2 className="font-popins font-bold  lg:text-lg md:text-base text-sm  capitalize">
                     Principal/Supervisory Exams
                   </h2>
                   <div className=" h-[2px] my-2 w-full bg-slate-300 " />
