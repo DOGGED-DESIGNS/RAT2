@@ -4,7 +4,7 @@ import { BackgroundBeams } from "./ui/Background-beam";
 
 export function BackgroundBeamsDemo() {
   return (
-    <div className="lg:h-[20rem] md:h-[40rem] h-[40rem] lg:mt-0 md:mt-20  sm:mt-15 mt-[250px] w-full  bg-slate-900 relative  antialiased">
+    <div className="lg:h-[20rem] md:h-[40rem] h-[40rem] lg:mt-0 md:mt-20   mt-[230px] w-full  bg-slate-900 relative  antialiased">
       <div className="max-w-screen-lg sm:h-full md:h-full h-full  absolute top-1/2 -translate-x-1/2  left-1/2 w-[100%]  -translate-y-1/2  mx-auto p-4">
         <div className="w-full h-full ">
           <div className="lg:flex-row lg:items-center flex h-full justify-around  flex-col   ">
