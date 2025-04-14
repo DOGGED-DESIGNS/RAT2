@@ -7,7 +7,7 @@ import { AuroraBackground } from "@/components/ui/Arorabg";
 import { motion } from "framer-motion";
 
 import Image from "next/image";
-import { BackgroundBeamsDemo } from "@/components/Blackbg";
+// import { BackgroundBeamsDemo } from "@/components/Blackbg";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { CardHoverEffectDemo } from "@/components/Cards";
 // import { MovingBorderDemo } from "@/components/Moving";
@@ -62,11 +62,6 @@ export default function Home() {
         <div className=" ">
           <Movinbg />
         </div>
-
-        {/* this is the ther one */}
-        {/* <BackgroundBeamsDemo /> */}
-
-        {/* licensed investment adviser */}
 
         <div className=" bg-purple-100 ">
           <div className=" py-[107px] grid max-w-screen-md sm:grid-cols-1 px-2  w-full m-auto gap-30 lg:grid-cols-2">
