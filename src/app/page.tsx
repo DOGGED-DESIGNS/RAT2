@@ -38,7 +38,7 @@ export default function Home() {
     {
       quote:
         "Thanks to Rita Orow, I've seen my portfolio grow by over 200%! The strategic planning and constant support were key in achieving these results. I now feel secure and well-prepared for the future.",
-      name: "Olivia K",
+      name: "Bella Josh",
       title: "",
     },
     {
@@ -193,7 +193,7 @@ export default function Home() {
               <WobbleCard containerClassName=" col-span-1 bg-purple-200  ">
                 <div>
                   <h2 className="font-popins font-bold lg:text-lg md:text-base text-sm  capitalize">
-                    State Securities Law Exams
+                    3 State Securities Law Exams
                   </h2>
                   <div className=" h-[2px] my-2 w-full bg-slate-300 " />
                 </div>
