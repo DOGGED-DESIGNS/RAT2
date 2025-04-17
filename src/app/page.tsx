@@ -248,11 +248,72 @@ export default function Home() {
 
                 {/* this is where the socials are */}
 
-                {/* <div className="mt-6  flex flex-col space-y-3 gap-5  ">
-                  <Link href={"#"} className=" flex gap-2">
-                    <MessageCircle /> <p>verified teligram</p>
+                <div className=" space-y-4 mt-6    flex flex-col    ">
+                  <Link
+                    href={"#"}
+                    className=" hover:underline items-center flex gap-1"
+                  >
+                    <div className=" shrink-0 relative  h-6 w-6">
+                      <Image
+                        fill
+                        className="object-contain"
+                        src={"/facebook.svg"}
+                        alt="facebook"
+                      />
+                    </div>
+                    <div>
+                      <p className=" text-sm font-medium font-popins text-slate-800">
+                        Rita Orow
+                      </p>
+                    </div>
                   </Link>
-                </div> */}
+                  <Link
+                    href={"#"}
+                    className=" hover:underline items-center flex gap-1"
+                  >
+                    <div className=" shrink-0 relative  h-6 w-6">
+                      <Image
+                        fill
+                        className="object-contain"
+                        src={"/instagram.svg"}
+                        alt="facebook"
+                      />
+                    </div>
+                    <div>
+                      <p className=" text-sm font-medium font-popins text-slate-800">
+                        Rita Orow
+                      </p>
+                    </div>
+                  </Link>
+                  <Link
+                    href={"#"}
+                    className="hover:underline items-center flex gap-1"
+                  >
+                    <div className=" shrink-0 relative  h-6 w-6">
+                      <Image
+                        fill
+                        className="object-contain"
+                        src={"/telegram.svg"}
+                        alt="facebook"
+                      />
+                    </div>
+                    <div className="relative">
+                      <p className=" text-sm font-medium font-popins text-slate-800">
+                        @RitaOrow
+                      </p>
+                      <div className=" absolute -top-2 left-full">
+                        <div className="relative h-3 w-3">
+                          <Image
+                            fill
+                            className="object-contain"
+                            src={"/verified.png"}
+                            alt="verify"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                </div>
               </div>
             </div>
 
