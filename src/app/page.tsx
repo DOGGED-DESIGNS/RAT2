@@ -325,7 +325,7 @@ export default function Home() {
         <div className="h-96 relative w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center ">
           <div className="absolute px-2 inset-0 w-full h-full bg-slate-950 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
 
-          <Boxes />
+          {/* <Boxes /> */}
           <div className="relative h-[80px] w-[130px] md:w-[200px]  ">
             <Image
               alt="logo"
