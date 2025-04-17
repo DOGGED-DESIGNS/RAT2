@@ -227,7 +227,7 @@ export default function Home() {
         <div id="contact" className=" bg-purple-200 py-[107px] px-1  mt-20">
           <div className=" bg-slate-50 gap-10 p-2 mx-auto rounded-lg max-w-screen-lg grid lg:grid-cols-2 md:grid-col-1 grid-col-1 sm:grid-col-1 ">
             <div className="  col-span-1">
-              <div className=" p-2">
+              <div className=" p-2  ">
                 <h6 className="font-popins text-sm font-bold text-purple-900">
                   Get in touch
                 </h6>
@@ -248,30 +248,11 @@ export default function Home() {
 
                 {/* this is where the socials are */}
 
-                <div className="mt-6 flex gap-5  ">
-                  <Link
-                    href={"#"}
-                    className={buttonVariants({
-                      variant: "ghost",
-                      size: "icon",
-                      className: "border border-slate-800",
-                    })}
-                  >
-                    {" "}
-                    <Instagram />{" "}
+                {/* <div className="mt-6  flex flex-col space-y-3 gap-5  ">
+                  <Link href={"#"} className=" flex gap-2">
+                    <MessageCircle /> <p>verified teligram</p>
                   </Link>
-                  <Link
-                    href={"#"}
-                    className={buttonVariants({
-                      variant: "ghost",
-                      size: "icon",
-                      className: "border border-slate-800",
-                    })}
-                  >
-                    {" "}
-                    <MessageCircle />{" "}
-                  </Link>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -325,7 +306,7 @@ export default function Home() {
         <div className="h-96 relative w-full overflow-hidden bg-slate-900 flex flex-col items-center justify-center ">
           <div className="absolute px-2 inset-0 w-full h-full bg-slate-950 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
 
-          {/* <Boxes /> */}
+          {/* <Boxes />a */}
           <div className="relative h-[80px] w-[130px] md:w-[200px]  ">
             <Image
               alt="logo"
