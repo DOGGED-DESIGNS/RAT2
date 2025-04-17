@@ -74,12 +74,14 @@ export default function Home() {
         </div>
 
         <div id="about" className=" bg-purple-100 ">
-          <div className=" py-[107px] grid max-w-screen-md sm:grid-cols-1 px-2  w-full m-auto gap-30 lg:grid-cols-2">
+          <div className=" py-[107px] grid max-w-screen-md grid-cols-1 px-2  w-full m-auto gap-30 lg:grid-cols-2">
             <div className=" col-span-1 ">
-              <div className=" overflow-hidden rounded-lg bg-zinc-500  max-w-lg  h-full">
-                <img
-                  className="w-full h-full object-cover"
-                  src="/Ritabtc.jpg"
+              <div className="relative overflow-hidden rounded-lg bg-zinc-500  max-w-lg  min-h-[400px] md:min-h-full">
+                <Image
+                  alt="image"
+                  fill
+                  className="object-cover"
+                  src="/ritabtc.jpg"
                 />
               </div>
             </div>
@@ -239,7 +241,7 @@ export default function Home() {
                 {/* this is the image  */}
                 <div className=" mx-auto mt-6 rounded-lg overflow-hidden max-w-[250px] h-[390px]">
                   <img
-                    src="/ritapagent.jpg"
+                    src="/Ritapagent.jpg"
                     className="h-full w-full object-cover"
                   />
                 </div>
