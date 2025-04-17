@@ -53,10 +53,16 @@ export default function Navbar() {
           <Link className=" hover:text-purple-900 " href={"#"}>
             Home
           </Link>
-          <Link className=" hover:text-purple-900 " href={"#"}>
+          <Link className=" hover:text-purple-900 " href={"#about"}>
             About
           </Link>
-          <Link className=" hover:text-purple-900 " href={"#"}>
+          <Link className=" hover:text-purple-900 " href={"#experience"}>
+            Experience
+          </Link>
+          <Link className=" hover:text-purple-900 " href={"#client"}>
+            Client Review
+          </Link>
+          <Link className=" hover:text-purple-900 " href={"#contact"}>
             contact us
           </Link>
           <Link
@@ -64,7 +70,9 @@ export default function Navbar() {
               variant: "destructive",
               className: "",
             })}
-            href={"#"}
+            href={"https://wa.me/17815883442"}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             {" "}
             <Headphones /> send us a message{" "}
@@ -84,23 +92,26 @@ export default function Navbar() {
             {" "}
             Home{" "}
           </Link>
-          <Link href={"#"} className="font-medium hover:text-purple-500">
+          <Link href={"#about"} className="font-medium hover:text-purple-500">
             {" "}
             About Me{" "}
           </Link>
-          <Link href={"#"} className="font-medium hover:text-purple-500">
+          <Link
+            href={"#experience"}
+            className="font-medium hover:text-purple-500"
+          >
+            Experience
+          </Link>
+          <Link href={"#service"} className="font-medium hover:text-purple-500">
             {" "}
             Service{" "}
           </Link>
-          <Link href={"#"} className="font-medium hover:text-purple-500">
-            {" "}
-            Work Experience{" "}
-          </Link>
-          <Link href={"#"} className="font-medium hover:text-purple-500">
+
+          <Link href={"#client"} className="font-medium hover:text-purple-500">
             {" "}
             Client Review{" "}
           </Link>
-          <Link href={"#"} className="font-medium hover:text-purple-500">
+          <Link href={"#contact"} className="font-medium hover:text-purple-500">
             {" "}
             Contact Me{" "}
           </Link>

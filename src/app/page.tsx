@@ -15,7 +15,13 @@ import { InfiniteMovingCards } from "@/components/ui/Infinite-moving";
 import { Spotlight } from "@/components/ui/Spotlight";
 import { WobbleCard } from "@/components/ui/Wobble-card";
 import Link from "next/link";
-import { Instagram, Mail, MessageCircle, Send } from "lucide-react";
+import {
+  FacebookIcon,
+  Instagram,
+  Mail,
+  MessageCircle,
+  Send,
+} from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { cn } from "@/lib/utils";
@@ -39,6 +45,7 @@ export default function Home() {
       quote:
         "Thanks to Rita Orow, I've seen my portfolio grow by over 200%! The strategic planning and constant support were key in achieving these results. I now feel secure and well-prepared for the future.",
       name: "Bella Josh",
+      iconz: <FacebookIcon className=" h-4 w-4  font-bold text-blue-600" />,
       title: "",
     },
     {
@@ -62,16 +69,17 @@ export default function Home() {
         <div className=" ">
           <Movinbg />
         </div>
+        <div id="experience">
+          <BackgroundBeamsDemo />
+        </div>
 
-        <BackgroundBeamsDemo />
-
-        <div className=" bg-purple-100 ">
+        <div id="about" className=" bg-purple-100 ">
           <div className=" py-[107px] grid max-w-screen-md sm:grid-cols-1 px-2  w-full m-auto gap-30 lg:grid-cols-2">
             <div className=" col-span-1 ">
               <div className=" overflow-hidden rounded-lg bg-zinc-500  max-w-lg  h-full">
                 <img
                   className="w-full h-full object-cover"
-                  src="/ritalambo.jpg"
+                  src="/Ritabtc.jpg"
                 />
               </div>
             </div>
@@ -99,9 +107,18 @@ export default function Home() {
                   measurable impact.
                 </p>
 
-                <Button className=" font-bold text-sm  capitalize font-popins mt-30 ">
+                <Link
+                  className={buttonVariants({
+                    variant: "default",
+                    className:
+                      "font-bold text-sm  capitalize font-popins mt-30",
+                  })}
+                  href={"https://wa.me/17815883442"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Send me a message
-                </Button>
+                </Link>
               </div>
             </div>
           </div>
@@ -109,7 +126,7 @@ export default function Home() {
 
         {/* financial services */}
 
-        <div className=" mt-8">
+        <div id="service" className=" mt-8">
           <h6 className="capitalize text-sm font-popins font-bold text-purple-900 text-center">
             Ritat orow
           </h6>
@@ -119,11 +136,10 @@ export default function Home() {
           </h2>
 
           <div className=" mt-10"></div>
+          <CardHoverEffectDemo />
         </div>
 
         {/* this is the card section */}
-
-        <CardHoverEffectDemo />
 
         {/* this is another section */}
         {/* <div className="   px-5 py-10  m-auto bg-slate-900   mt-9">
@@ -146,7 +162,10 @@ export default function Home() {
         </div> */}
 
         {/* this is the infinit movin card */}
-        <div className=" p-5 mx-auto h-[30rem] rounded-md flex flex-col antialiased bg-slate-200 dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+        <div
+          id="client"
+          className=" p-5 mx-auto h-[30rem] rounded-md flex flex-col antialiased bg-slate-200 dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden"
+        >
           <Spotlight />
           <div className=" max-w-screen-lg  mx-auto ">
             <div className=" mb-60">
@@ -158,7 +177,7 @@ export default function Home() {
             <InfiniteMovingCards
               items={testimonials}
               direction="right"
-              speed="slow"
+              speed="normal"
             />
           </div>
         </div>
@@ -203,7 +222,7 @@ export default function Home() {
         </div>
 
         {/* form section */}
-        <div className=" bg-purple-200 py-[107px] px-1  mt-20">
+        <div id="contact" className=" bg-purple-200 py-[107px] px-1  mt-20">
           <div className=" bg-slate-50 gap-10 p-2 mx-auto rounded-lg max-w-screen-lg grid lg:grid-cols-2 md:grid-col-1 grid-col-1 sm:grid-col-1 ">
             <div className="  col-span-1">
               <div className=" p-2">
@@ -218,9 +237,9 @@ export default function Home() {
                 </p>
 
                 {/* this is the image  */}
-                <div className=" mx-auto mt-6 rounded-lg overflow-hidden max-w-[250px] h-[250px]">
+                <div className=" mx-auto mt-6 rounded-lg overflow-hidden max-w-[250px] h-[390px]">
                   <img
-                    src="/ritabtc.jpg"
+                    src="/ritapagent.jpg"
                     className="h-full w-full object-cover"
                   />
                 </div>
@@ -280,14 +299,19 @@ export default function Home() {
                   </div>
 
                   <div>
-                    <Button
-                      className=" font-popins w-full"
-                      variant={"default"}
-                      size={"lg"}
+                    <Link
+                      className={buttonVariants({
+                        variant: "default",
+                        className: "font-popins w-full",
+                        size: "lg",
+                      })}
+                      href={"https://wa.me/17815883442"}
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       {" "}
                       <Send /> Send Now{" "}
-                    </Button>
+                    </Link>
                   </div>
                 </div>
               </form>
@@ -300,7 +324,7 @@ export default function Home() {
           <div className="absolute px-2 inset-0 w-full h-full bg-slate-950 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
 
           <Boxes />
-          <div className="relative h-[80px] w-[200px]  ">
+          <div className="relative h-[80px] w-[130px] md:w-[200px]  ">
             <Image
               alt="logo"
               fill
@@ -308,7 +332,7 @@ export default function Home() {
               src="/ritalogo.svg"
             />
           </div>
-          <p className="text-center text-sm lg:text-base md:text-base max-w-prose font-montserrat   mt-30 text-neutral-400 relative z-20">
+          <p className="text-center text-[10px] lg:text-base md:text-base max-w-prose font-montserrat   mt-30 text-neutral-400 relative z-20">
             I can help you build and manage a solid investment portfolio,
             significantly increasing your earning potential to over 200%.
           </p>

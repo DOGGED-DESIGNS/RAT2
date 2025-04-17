@@ -2,7 +2,8 @@
 import React from "react";
 import { AuroraBackground } from "./ui/Arorabg";
 import { motion } from "framer-motion";
-import { Button } from "./ui/button";
+import { Button, buttonVariants } from "./ui/button";
+import Link from "next/link";
 
 export default function Movinbg() {
   return (
@@ -51,24 +52,34 @@ export default function Movinbg() {
 
             <div className=" mb-60 mt-30   gap-3 lg:flex lg:gap-10">
               <div className=" my-4 ">
-                <Button
-                  className=" text-sm  w-full  h-11 lg:h-[60px] md:h-16"
-                  variant={"default"}
-                  size={"lg"}
+                <Link
+                  href={"https://wa.me/17815883442"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={buttonVariants({
+                    className: "text-sm w-full  h-11 lg:h-[60px] md:h-16",
+                    variant: "default",
+                    size: "lg",
+                  })}
                 >
                   {" "}
                   Get Stated
-                </Button>
+                </Link>
               </div>
               <div className=" my-4">
-                <Button
-                  className=" text-sm w-full  h-11 lg:h-[60px] md:h-16"
-                  variant={"outline"}
-                  size={"lg"}
+                <Link
+                  href={"https://wa.me/17815883442"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={buttonVariants({
+                    className: "text-sm w-full  h-11 lg:h-[60px] md:h-16",
+                    variant: "outline",
+                    size: "lg",
+                  })}
                 >
                   {" "}
                   Detailed Report
-                </Button>
+                </Link>
               </div>
             </div>
           </div>
