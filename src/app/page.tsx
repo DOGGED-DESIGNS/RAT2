@@ -249,7 +249,7 @@ export default function Home() {
                 {/* this is where the socials are */}
 
                 <div className=" space-y-4 mt-6    flex flex-col    ">
-                  <Link
+                  {/* <Link
                     href={"#"}
                     className=" hover:underline items-center flex gap-1"
                   >
@@ -266,8 +266,8 @@ export default function Home() {
                         Rita Orow
                       </p>
                     </div>
-                  </Link>
-                  <Link
+                  </Link> */}
+                  {/* <Link
                     href={"#"}
                     className=" hover:underline items-center flex gap-1"
                   >
@@ -284,9 +284,11 @@ export default function Home() {
                         Rita Orow
                       </p>
                     </div>
-                  </Link>
+                  </Link> */}
                   <Link
-                    href={"#"}
+                    href={"https://t.me/Ritaorow"}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="hover:underline items-center flex gap-1"
                   >
                     <div className=" shrink-0 relative  h-6 w-6">
@@ -294,7 +296,7 @@ export default function Home() {
                         fill
                         className="object-contain"
                         src={"/telegram.svg"}
-                        alt="facebook"
+                        alt="telgram"
                       />
                     </div>
                     <div className="relative">
