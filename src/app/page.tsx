@@ -289,7 +289,7 @@ export default function Home() {
                     href={"https://t.me/Ritaorow"}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:underline items-center flex gap-1"
+                    className="hover:underline items-center flex justify-center gap-1"
                   >
                     <div className=" shrink-0 relative  h-6 w-6">
                       <Image
@@ -303,16 +303,6 @@ export default function Home() {
                       <p className=" text-sm font-medium font-popins text-slate-800">
                         @RitaOrow
                       </p>
-                      <div className=" absolute -top-2 left-full">
-                        <div className="relative h-3 w-3">
-                          <Image
-                            fill
-                            className="object-contain"
-                            src={"/verified.png"}
-                            alt="verify"
-                          />
-                        </div>
-                      </div>
                     </div>
                   </Link>
                 </div>
