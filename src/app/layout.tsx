@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Maxwidthwrapper from "@/components/Maxwidthwrapper";
 import { constructMetadata } from "@/lib/utils";
 import Watsapp from "@/components/Watsapp";
+import Telegram from "@/components/Telegram";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body>
         <main className=" ">
           <Watsapp />
+          <Telegram />
           <Navbar />
           {children}
         </main>
