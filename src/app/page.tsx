@@ -26,6 +26,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { cn } from "@/lib/utils";
 import { Boxes } from "@/components/ui/Background-box";
+import { image } from "framer-motion/client";
 
 export default function Home() {
   const testimonials = [
@@ -34,12 +35,14 @@ export default function Home() {
         "Working with Rita Orow has completely transformed my investment strategy. Her expert guidance helped me navigate complex decisions, and my portfolio is now performing better than ever. I couldn't be more satisfied with the results!",
       name: "Sarah T",
       title: "",
+      image: "/textimage/femaletwo.jpg",
     },
     {
       quote:
         "I was hesitant to invest at first, but Rita Orow made the process easy to understand and personalized for my goals. My portfolio has grown significantly, and I feel confident in my financial future. Highly recommend!",
       name: "Alex R",
       title: "",
+      image: "/textimage/maletwo.jpg",
     },
     {
       quote:
@@ -47,18 +50,21 @@ export default function Home() {
       name: "Bella Josh",
       iconz: <FacebookIcon className=" h-4 w-4  font-bold text-blue-600" />,
       title: "",
+      image: "/textimage/josh.jpg",
     },
     {
       quote:
         "I’ve worked with several financial advisors, but none have been as hands-on and insightful as Rita Orow. She crafted a plan that perfectly aligns with my risk tolerance and financial goals. My portfolio is thriving!",
       name: "Michael L",
       title: "",
+      image: "/textimage/maletwo.jpg",
     },
     {
       quote:
         "The financial growth I’ve experienced under Rita Orow's management is beyond my expectations. She takes the time to truly understand my needs and creates customized strategies that work. It’s been an incredible journey.",
       name: "Emily W",
       title: "",
+      image: "/textimage/femaleone.jpg",
     },
   ];
   return (
