@@ -273,24 +273,26 @@ export default function Home() {
                       </p>
                     </div>
                   </Link> */}
-                  {/* <Link
-                    href={"#"}
-                    className=" hover:underline items-center flex gap-1"
+                  <Link
+                    href={"https://www.instagram.com/ritaorowfx"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline items-center flex justify-center gap-1"
                   >
                     <div className=" shrink-0 relative  h-6 w-6">
                       <Image
                         fill
                         className="object-contain"
                         src={"/instagram.svg"}
-                        alt="facebook"
+                        alt="instagram"
                       />
                     </div>
                     <div>
                       <p className=" text-sm font-medium font-popins text-slate-800">
-                        Rita Orow
+                        Ritaorowfx
                       </p>
                     </div>
-                  </Link> */}
+                  </Link>
                   <Link
                     href={"https://t.me/Ritaorow"}
                     target="_blank"
