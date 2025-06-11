@@ -26,7 +26,7 @@ export default function Watsapp() {
         type: "spring",
         stiffness: 200,
       }}
-      href={"https://wa.me/17815883442"}
+      href={"https://wa.me/17435571168"}
       target="_blank"
       rel="noopener noreferrer"
       className=" fixed  z-[2000]    

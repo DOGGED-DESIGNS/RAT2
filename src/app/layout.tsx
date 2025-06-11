@@ -20,7 +20,8 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <main className=" ">
-          {/* <Watsapp /> */}
+          <Watsapp />
+
           <Telegram />
           <Navbar />
           {children}
